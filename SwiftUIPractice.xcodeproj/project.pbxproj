@@ -11,6 +11,8 @@
 		31603417269F4D8C00EF553A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31603416269F4D8C00EF553A /* ContentView.swift */; };
 		31603419269F4D8D00EF553A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31603418269F4D8D00EF553A /* Assets.xcassets */; };
 		3160341C269F4D8D00EF553A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3160341B269F4D8D00EF553A /* Preview Assets.xcassets */; };
+		31603426269F4DD600EF553A /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31603425269F4DD600EF553A /* HomePage.swift */; };
+		31603428269F552600EF553A /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31603427269F552600EF553A /* TabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		31603418269F4D8D00EF553A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3160341B269F4D8D00EF553A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3160341D269F4D8D00EF553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31603425269F4DD600EF553A /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		31603427269F552600EF553A /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		31603413269F4D8C00EF553A /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				31603424269F4DC000EF553A /* Model */,
+				31603423269F4DB300EF553A /* View */,
 				31603414269F4D8C00EF553A /* SwiftUIPracticeApp.swift */,
 				31603416269F4D8C00EF553A /* ContentView.swift */,
 				31603418269F4D8D00EF553A /* Assets.xcassets */,
@@ -67,6 +73,22 @@
 				3160341B269F4D8D00EF553A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31603423269F4DB300EF553A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31603425269F4DD600EF553A /* HomePage.swift */,
+				31603427269F552600EF553A /* TabButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31603424269F4DC000EF553A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31603417269F4D8C00EF553A /* ContentView.swift in Sources */,
+				31603428269F552600EF553A /* TabButton.swift in Sources */,
+				31603426269F4DD600EF553A /* HomePage.swift in Sources */,
 				31603415269F4D8C00EF553A /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

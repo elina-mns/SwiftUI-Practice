@@ -13,6 +13,8 @@
 		3160341C269F4D8D00EF553A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3160341B269F4D8D00EF553A /* Preview Assets.xcassets */; };
 		31603426269F4DD600EF553A /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31603425269F4DD600EF553A /* HomePage.swift */; };
 		31603428269F552600EF553A /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31603427269F552600EF553A /* TabButton.swift */; };
+		3160342A269F5A3F00EF553A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31603429269F5A3F00EF553A /* Item.swift */; };
+		3160342C269F6B5F00EF553A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3160342B269F6B5F00EF553A /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3160341D269F4D8D00EF553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31603425269F4DD600EF553A /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		31603427269F552600EF553A /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		31603429269F5A3F00EF553A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3160342B269F6B5F00EF553A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			children = (
 				31603425269F4DD600EF553A /* HomePage.swift */,
 				31603427269F552600EF553A /* TabButton.swift */,
+				3160342B269F6B5F00EF553A /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 		31603424269F4DC000EF553A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				31603429269F5A3F00EF553A /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,9 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3160342A269F5A3F00EF553A /* Item.swift in Sources */,
 				31603417269F4D8C00EF553A /* ContentView.swift in Sources */,
 				31603428269F552600EF553A /* TabButton.swift in Sources */,
 				31603426269F4DD600EF553A /* HomePage.swift in Sources */,
+				3160342C269F6B5F00EF553A /* CardView.swift in Sources */,
 				31603415269F4D8C00EF553A /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

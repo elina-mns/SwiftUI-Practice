@@ -53,6 +53,15 @@ struct HomePage: View {
                         }
                     }
                     .padding()
+                    .padding(.top, 5)
+                    
+                    LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 20), count: 2), spacing: 25) {
+                        ForEach(items) { item in
+                            //Card View
+                            CardView(item: item, animation: animation)
+                        }
+                    }
+                    .padding()
                 }
             }
             Spacer(minLength: 0)
@@ -61,4 +70,4 @@ struct HomePage: View {
     }
 }
 
-var tabs = ["Books", "Coffee", "Films", "Vintage"]
+var tabs = ["Vintage", "Coffee", "Films", "Books"]
